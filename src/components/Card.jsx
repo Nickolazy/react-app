@@ -16,7 +16,7 @@ const Card = ({ title, info, img, isReversed }) => {
         <p className='font-normal text-xl text-[#b1afaf] w-3/4'>
           {info}
         </p>
-        <Button text={'Learn More'} targetId={'helloPage'}/>
+        <Button text={'Learn More'} targetId={'about'}/>
       </div>
     </div>
   )

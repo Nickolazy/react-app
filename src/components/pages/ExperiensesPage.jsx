@@ -1,6 +1,6 @@
 import React from 'react';
 import ScrollBar from '../ScrollBar';
-import About from '../About';
+import Numbers from '../Numbers';
 
 const ExperiensesPage = () => {
   const imagesToScroll = [
@@ -18,8 +18,8 @@ const ExperiensesPage = () => {
   return (
     <section id='experiences' className="w-full h-[1600px] bg-[url('./src/assets/img/experiences_page/experiences_page_backgr.png')] bg-cover bg-center pt-32">
       <ScrollBar imagesToScroll={imagesToScroll}/>
-
-      <About />
+      
+      <Numbers />
     </section>
   )
 }
