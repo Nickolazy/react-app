@@ -10,16 +10,16 @@ const Header = () => {
   ];
 
   return (
-    <header className="flex items-center justify-between gap-10 text-lg font-bold mr-36">
-      <div className='flex gap-20 items-center'>
+    <header className="flex items-center justify-between gap-10 text-lg font-bold lg:mr-36">
+      <div className='flex gap-10 xl:gap-20 items-center'>
         <img 
           src="./src/assets/icons/logo.svg" 
           alt="logo" 
           className='cursor-pointer select-none'
         />
-        <ul className="flex gap-16">
+        <ul className="hidden md:flex gap-3 lg:gap-5 xl:gap-16">
           {menuItems.map((item, index) => (
-            <li key={index} className='cursor-pointer select-none'>
+            <li key={index} className='cursor-pointer select-none hover:scale-105 transition-transform'>
               <ScrollLink
                 to={item.targetId}
                 smooth={true}
@@ -36,12 +36,12 @@ const Header = () => {
         <img 
           src="./src/assets/icons/search.svg" 
           alt="search" 
-          className='cursor-pointer select-none'
+          className='cursor-pointer select-none hover:scale-110 transition-transform'
         />
         <img 
           src="./src/assets/icons/menu.svg" 
           alt="search" 
-          className='cursor-pointer select-none'
+          className='cursor-pointer select-none hover:scale-110 transition-transform'
           />
       </div>
     </header>

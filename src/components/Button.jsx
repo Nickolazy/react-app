@@ -11,7 +11,7 @@ const Button = ({ width = 150, height = 50, text, targetId }) => {
       <div 
         style={{width, height}}
         className="bg-red-600 hover:border-[1px] hover:border-black rounded-full 
-          font-bold text-lg flex justify-center items-center select-none"
+          font-bold text-lg flex justify-center items-center select-none hover:scale-105 transition-transform"
       >
         {text}
       </div>

@@ -9,7 +9,7 @@ const PointOfList = ({ data }) => {
       <div className='text-2xl font-bold'>
         {data.title}
       </div>
-      <div className='w-1/2 text-base font-normal text-gray-500'>
+      <div className='2xl:w-1/2 text-base font-normal text-gray-500'>
         {data.info}
       </div>
     </div>
