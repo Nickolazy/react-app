@@ -1,5 +1,8 @@
 # React App for Staging Moodle in CDG 
 
+# deployed on gh-pages on url:
+https://nickolazy.github.io/react-app/
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
