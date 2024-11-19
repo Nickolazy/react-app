@@ -77,8 +77,7 @@ const ScrollBar = ({ imagesToScroll }) => {
         ></div>
 
         {Array.from({ length: AMOUNT_OF_BALLS }).map((_, index) => (
-          <div 
-            key={index}
+          <div key={index}
             className={`w-5 h-5 rounded-full transition-all duration-500 ease-in-out 
               ${Math.floor(currentIndex / MAX_VISIBLE_IMAGES) === index ? 'bg-red-600' : 'bg-gray-500'}`}
           />
