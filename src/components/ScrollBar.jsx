@@ -50,7 +50,7 @@ const ScrollBar = ({ imagesToScroll }) => {
   return (
     <div className='flex flex-col items-center gap-7'>
       <div className='flex justify-center gap-14'>
-        <ButtonArrow icon={"./src/assets/icons/arrow_to_left.svg"} handle={handleScrollLeft} />
+        <ButtonArrow icon={"./react-app/src/assets/icons/arrow_to_left.svg"} handle={handleScrollLeft} />
         
         <div className="flex gap-8">
           {visibleImages.map((image, index) => (
@@ -64,7 +64,7 @@ const ScrollBar = ({ imagesToScroll }) => {
           ))}
         </div>
 
-        <ButtonArrow icon={"./src/assets/icons/arrow_to_right.svg"} handle={handleScrollRight} />
+        <ButtonArrow icon={"./react-app/src/assets/icons/arrow_to_right.svg"} handle={handleScrollRight} />
       </div>
 
       <div className={`flex flex-row gap-6 relative ${AMOUNT_OF_BALLS <= 1 ? 'hidden' : ''}`}>

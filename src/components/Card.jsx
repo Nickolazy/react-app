@@ -6,7 +6,7 @@ const Card = ({ title, info, img, isReversed }) => {
     <div className={`px-10 xl:px-20 2xl:px-40 min-[1750px]:px-60 flex gap-8 lg:gap-20 xl:gap-32 items-center ${isReversed ? 'flex-row-reverse' : ''}`}>
       <img 
         src={img} 
-        alt={img} 
+        alt={title} 
         className='w-1/2 h-1/2'
       />
       <div className='w-1/2 flex flex-col gap-10'>

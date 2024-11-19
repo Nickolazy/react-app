@@ -3,7 +3,7 @@ import Button from '../Button';
 
 const GalleryPage = () => {
   return (
-    <section id='about' className="w-full h-screen bg-[url('./src/assets/img/gallery_page/gallery_page_backgr.png')] 
+    <section id='about' className="w-full h-screen bg-[url('../src/assets/img/gallery_page/gallery_page_backgr.png')] 
       bg-cover bg-center py-60 flex flex-col items-center gap-16 ">
       <div className='text-black text-center w-1/2 flex flex-col gap-10 items-center'>
         <p className='text-6xl font-bold'>
