@@ -13,7 +13,7 @@ const Header = () => {
     <header className="flex items-center justify-between gap-10 text-lg font-bold lg:mr-36">
       <div className='flex gap-10 xl:gap-20 items-center'>
         <img 
-          src="/react-app/src/assets/icons/logo.svg" 
+          src="./react-app/src/assets/icons/logo.svg" 
           alt="logo" 
           className='cursor-pointer select-none'
         />

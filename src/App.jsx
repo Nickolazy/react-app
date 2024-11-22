@@ -5,18 +5,21 @@ import AboutPage from "./components/pages/AboutPage";
 import Footer from "./components/Footer";
 import TaskPage from "./components/pages/TaskPage";
 
+import { ThemeProvider, useTheme } from './components/ThemeContext';
+
 const App = () => {
   return (
     <>
-      <HelloPage />
-      <DestinationsPage />
-      <ExperiensesPage />
-      <AboutPage />
-
-      <TaskPage />
-      <Footer/>
+      <ThemeProvider>
+        <HelloPage />
+        <DestinationsPage />
+        <ExperiensesPage />
+        <AboutPage />
+        <TaskPage />
+        <Footer />
+      </ThemeProvider>
     </>
   )
 }
 
-export default App
+export default App;

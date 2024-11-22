@@ -5,7 +5,6 @@ const Balance = () => {
   const [balance, setBalance] = useState(0);
 
   useEffect(() => {
-    console.log(balance);
     const interval = setInterval(() => 
       setBalance((prev) => prev + 1), 10000);
 
@@ -26,7 +25,7 @@ const Balance = () => {
 
   return (
     <div className='w-96 flex flex-col items-center gap-5'>
-      <div className='w-full h-72 border-2 border-black bg-white shadow-xl
+      <div className='w-full h-72 border-2 border-black shadow-xl
         rounded-2xl flex justify-center items-center gap-2 select-none'>
         <p className='font-bold text-6xl'>
         {balance}
