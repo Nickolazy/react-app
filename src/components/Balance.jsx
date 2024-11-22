@@ -39,12 +39,12 @@ const Balance = () => {
       </div>
       <div className='w-full flex justify-around font-extralight text-5xl'>
         <button onClick={decreaseBalance} className='w-14 h-14 flex items-center justify-center rounded-full
-          border-2 border-black select-none cursor-pointer bg-gray-200 hover:bg-gray-300
+          border-2 border-black select-none cursor-pointer bg-gray-100 hover:bg-gray-200
           hover:scale-105 active:scale-95'> 
           - 
         </button>
         <button onClick={increaseBalance} className='w-14 h-14 flex items-center justify-center rounded-full
-          border-2 border-black select-none cursor-pointer bg-gray-200 hover:bg-gray-300
+          border-2 border-black select-none cursor-pointer bg-gray-100 hover:bg-gray-200
           hover:scale-105 active:scale-95'> 
           + 
         </button>
