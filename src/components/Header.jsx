@@ -6,7 +6,7 @@ const Header = () => {
     { name: 'DESTINATIONS', targetId: 'destinations'}, 
     { name: 'EXPERIENCES ', targetId: 'experiences'}, 
     { name: 'ABOUT', targetId: 'about'}, 
-    { name: 'GALLERY', targetId: 'gallery' }
+    { name: 'TASKS', targetId: 'tasks' }
   ];
 
   return (
