@@ -34,12 +34,12 @@ const Header = () => {
 
       <div className='flex gap-10'>
         <img 
-          src="../src/assets/icons/search.svg" 
+          src="./react-app/src/assets/icons/search.svg" 
           alt="search" 
           className='cursor-pointer select-none hover:scale-110 transition-transform'
         />
         <img 
-          src="../src/assets/icons/menu.svg" 
+          src="./react-app/src/assets/icons/menu.svg" 
           alt="search" 
           className='cursor-pointer select-none hover:scale-110 transition-transform'
           />

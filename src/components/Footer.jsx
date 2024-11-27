@@ -13,7 +13,7 @@ const Footer = () => {
     <footer className='flex items-center justify-between text-white font-bold text-lg px-10 py-7 bg-[#010A20]'>
       <div className='flex gap-20 items-center'>
         <img 
-          src="../src/assets/icons/logo.svg" 
+          src="./react-app/src/assets/icons/logo.svg" 
           alt="logo" 
           className='cursor-pointer select-none'
         />
